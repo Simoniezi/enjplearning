@@ -1,6 +1,41 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Learn Japanese</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS Links. -->
+        <link rel="stylesheet" type="text/css" href="css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/dropdown.css">
+        
+        <!-- JS Links. -->
+        <script type="text/javascript" src="js/navbar.js"></script>
+
+
+        <a class="top"></a>
+    </head>
+
     <body>
-        <p>Initial Commit</p>
+
+        <!-- Navigation bar. -->
+        <div class="topnav" id="TopNav">
+
+            <!-- 
+            Dropdown menu with all information regarding the project and website.
+            -->
+            <div class="mainDropdown">
+                <button class="active" class="dropbtn" onclick="mainDropdown()">Home
+                    <i class="fa fa-caret-down"></i>
+                </button>
+
+                <span id="mainDropdown" class="mainContent">
+                    <a href="something-to-come">WIP</a>
+                </span>
+            </div>
+
+            <!-- More content to navigate to later on. -->
+            <a href="even-more-to-come">WIP</a>
+        </div>
     </body>
 </html>
