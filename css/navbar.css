@@ -1,13 +1,19 @@
+/* The main navigation bar stylesheet */
+
+/* Body allowing the navigation bar to fill the entirety of the top */
 body {
     margin: 0;
 }
 
+
+/* Navigation bar <div> */
 .topnav {
     background-color: #343434;
     width: 100%;
     overflow: hidden;
 }
 
+/* Links */
 .topnav a {
     float: left;
     padding: 14px 16px;
@@ -18,19 +24,24 @@ body {
     font-size: 17px;
 }
 
+/* Button will light green when hovered over */
 .mainDropdown button:hover {
     background-color: green;
 }
 
+/* Links will light green when hovered over */
 .topnav a:hover {
     background-color: green;
 }
 
+/* The active link will light red-ish */
 .topnav a.active {
     background-color: #FF2400;
     color: white;
 }
 
+/* Some icon thing - I don't fully know;
+It works, and that is what counts */
 .topnav .icon {
     display: none;
 }

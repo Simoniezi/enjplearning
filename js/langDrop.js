@@ -1,3 +1,5 @@
+// Language menu
+
 function langDropdown() {
     document.getElementById("langDropdwn").classList.toggle("show")
 }

@@ -1,3 +1,5 @@
+// Change between the languages script
+
 function toggleLanguage(language) {
     let test = document.getElementById("test");
     let langOpt = document.getElementById("langOpt");

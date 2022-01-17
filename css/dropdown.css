@@ -1,8 +1,12 @@
+/* Dropdown menu stylesheet */
+
+/* Dropdown menu thing */
 .mainDropdown {
     float: left;
     overflow: hidden;
 }
 
+/* Main dropdown menu and button design */
 .mainDropdown .dropbtn {
     font-size: 17px;
     border: none;
@@ -14,6 +18,7 @@
     margin: 0;
 }
 
+/* Main design for the dropdown <span> */
 .mainContent {
     display: none;
     position: absolute;
@@ -23,6 +28,7 @@
     z-index: 1;
 }
 
+/* Links in dropdown */
 .mainContent a {
     float: none;
     color: white;
@@ -32,10 +38,13 @@
     text-align: left;
 }
 
+/* Links hover colour */
 .mainContent a:hover {
     background-color: green;
 }
 
+/* Something I don't fully know what does either;
+As long as it works, right? */
 .show {
     display: block;
 }

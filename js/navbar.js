@@ -1,3 +1,5 @@
+// The main dropdown menu
+
 function mainDropdown() {
     document.getElementById("mainDropdown").classList.toggle("show")
 }
