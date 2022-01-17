@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learn Japanese - Staff</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--CSS Links. -->
+        <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="../css/dropdown.css">
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+        <!-- JS Links. -->
+        <script type="text/javascript" src="../js/navbar.js"></script>
+        <script type="text/javascript" src="../js/responsiveNavbar.js"></script>
+
+        <a class="top"></a>
+    </head>
+
+    <body>
+        <!-- Navigation bar. -->
+        <div class="topnav" id="TopNav">
+            <!-- Dropdown menu with all information regarding the project and website. -->
+            <div class="mainDropdown">
+                <button class="dropbtn" onclick="mainDropdown()">Home
+                    <i class="fa fa-caret-down"></i>
+                </button>
+
+                <span id="mainDropdown" class="mainContent">
+                    <a href="../index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a class="active" href="staff.html">Staff Team</a>
+                </span>
+            </div>
+
+            <!-- More content to navigate to later on. -->
+            <a href="even-more-to-come">WIP</a>
+            <a href="javascript:void(0)" class="icon" onclick="responsiveNavbar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </body>
+</html>
