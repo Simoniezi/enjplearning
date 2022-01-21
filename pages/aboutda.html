@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Learn Japanese</title>
+        <title>Learn Japanese - About</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- CSS Links. -->
-        <link rel="stylesheet" type="text/css" href="css/navbar.css">
-        <link rel="stylesheet" type="text/css" href="css/dropdown.css">
+        <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="../css/dropdown.css">
         
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+     
         <!-- JS Links. -->
-        <script src="js/navbar.js"></script>
-        <script src="js/responsiveNavbar.js"></script>
-        <script src="js/changeLang.js"></script>
+        <script src="../js/navbar.js"></script>
+        <script src="../js/responsiveNavbar.js"></script>
+        <script src="../js/changeLang.js"></script>
+
 
         <a class="top"></a>
     </head>
 
     <body>
-        <!-- Navigation bar. -->
+        <!-- Navigation Bar Start -->
         <div class="topnav" id="TopNav">
             <!-- Dropdown menu with all information regarding the project and website. -->
             <div class="mainDropdown">
-                <button class="dropbtn" onclick="mainDropdown()">Hjem
+                <button class="dropbtn" onclick="mainDropdown()">Home
                     <i class="fa fa-caret-down"></i>
                 </button>
 
                 <span id="mainDropdown" class="mainContent">
-                    <a class="active" href="indexda.html">Home</a>
-                    <a href="pages/aboutda.html">About</a>
-                    <a href="pages/staffda.html">Steam Team</a>
+                    <a href="../indexda.html">Home</a>
+                    <a class="active" href="aboutda.html">About</a>
+                    <a href="staffda.html">Steam Team</a>
                 </span>
             </div>
 
@@ -40,21 +41,24 @@
                 <i class="fa fa-bars"></i>
             </a>
 
-           <!-- Language Changer. REMEMBER TO COPY OVER TO THE OTHER PAGES -->
+            <!-- Language Changer Start-->
             <div class="mainDropdown">
-                <button id="langOpt" class="dropbtn" onclick="langDropdown()">Sprog
+                <button id="langOpt" class="dropbtn" onclick="langDropdown()">Language
                     <i class="fa fa-caret-down"></i>
                 </button>
 
                 <span id="langDropdwn" class="mainContent">
-                    <a id="en" href="#" onclick="toggleLanguage('English')">Engelsk</a>
-                    <a id="da" href="#" onclick="toggleLanguage('Danish')">Dansk</a>
-                    <a id="jp" href="#" onclick="toggleLanguage('Japanese')">Japansk</a>
+                    <a id="en" href="#" onclick="toggleLanguage('English')">English</a>
+                    <a id="da" href="#" onclick="toggleLanguage('Danish')">Danish</a>
+                    <a id="jp" href="#" onclick="toggleLanguage('Japanese')">Japanese</a>
                 </span>
+
+            <!-- Language Changer End -->
             </div>
+
+        <!-- Navigation Bar End -->
         </div>
 
-        <p id="test">DET HER ER HJEM</p>
-
+        <p>Det her er Om Os!</p>
     </body>
 </html>

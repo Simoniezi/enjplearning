@@ -11,15 +11,16 @@
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      
         <!-- JS Links. -->
-        <script type="text/javascript" src="../js/navbar.js"></script>
-        <script type="text/javascript" src="../js/responsiveNavbar.js"></script>
+        <script src="../js/navbar.js"></script>
+        <script src="../js/responsiveNavbar.js"></script>
+        <script src="../js/changeLang.js"></script>
 
 
         <a class="top"></a>
     </head>
 
     <body>
-        <!-- Navigation bar. -->
+        <!-- Navigation Bar Start -->
         <div class="topnav" id="TopNav">
             <!-- Dropdown menu with all information regarding the project and website. -->
             <div class="mainDropdown">
@@ -30,7 +31,7 @@
                 <span id="mainDropdown" class="mainContent">
                     <a href="../index.html">Home</a>
                     <a class="active" href="about.html">About</a>
-                    <a href="staff.html">Steam Team</a>
+                    <a href="staffda.html">Steam Team</a>
                 </span>
             </div>
 
@@ -39,6 +40,25 @@
             <a href="javascript:void(0)" class="icon" onclick="responsiveNavbar()">
                 <i class="fa fa-bars"></i>
             </a>
+
+            <!-- Language Changer Start-->
+            <div class="mainDropdown">
+                <button id="langOpt" class="dropbtn" onclick="langDropdown()">Language
+                    <i class="fa fa-caret-down"></i>
+                </button>
+
+                <span id="langDropdwn" class="mainContent">
+                    <a id="en" href="#" onclick="toggleLanguage('English')">English</a>
+                    <a id="da" href="#" onclick="toggleLanguage('Danish')">Danish</a>
+                    <a id="jp" href="#" onclick="toggleLanguage('Japanese')">Japanese</a>
+                </span>
+
+            <!-- Language Changer End -->
+            </div>
+
+        <!-- Navigation Bar End -->
         </div>
+
+        <p>This is about!</p>
     </body>
 </html>
